@@ -12,10 +12,7 @@ import os
 
 
 class ARPSpoofer:
-    def __init__(
-            self,
-            ip_range: str
-        ) -> None: 
+    def __init__(self, ip_range: str) -> None:
         self.ip_range = ip_range
         self.gateway_info = {}
         self.client_info = []
